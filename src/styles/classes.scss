@@ -1,0 +1,41 @@
+@import "./Variables.module";
+
+.container {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.flex-sb-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-start-center {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: $primary-title-font-size;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+
